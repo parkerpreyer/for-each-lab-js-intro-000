@@ -3,3 +3,8 @@ function iterativeLog(array) {
     console.log(`${index}: ${element}`);
   });
 }
+
+function iterate(callback) {
+  let array = ['duck', 'duck', 'goose!'];
+  array.forEach(callback)
+}
